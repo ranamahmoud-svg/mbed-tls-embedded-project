@@ -1,5 +1,7 @@
 Embedded Software Project Using ATmega32
+
 Project Overview
+
 This project is an embedded software application developed for the ATmega32 microcontroller. It integrates the Mbed TLS library, specifically the SHA-256 module, to perform secure hashing operations. The project demonstrates the use of the Mbed TLS library in an embedded environment.
 Prerequisites
 To build and run this project, the following tools and software are required:
@@ -23,7 +25,7 @@ Some needed files like :
 Setup Instructions
 1. Clone the Repository
 Clone the project repository to your local machine using Git:
-git clone <repository-link>
+git clone <(https://github.com/ranamahmoud-svg/mbed-tls-embedded-project.git)>
 2. Install Dependencies
 Ensure CMake and AVR GCC are installed on your system. You can download them from their official websites:
 CMake
