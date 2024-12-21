@@ -12,17 +12,28 @@ To build and run this project, the following tools and software are required:
 -Microchip Studio  or any other preferred IDE for AVR development.
 Project Structure
 The project consists of the following directories:
+
 -MCAL: Microcontroller Abstraction Layer containing low-level drivers.
+
 -HAL: Hardware Abstraction Layer containing drivers for peripherals.
 -APP: Application layer containing the main logic of the project( we didn’t need it as we tested sha256 with the main).
+
 -CFG: Configuration files for setting up the peripherals and libraries.
--Include: Header files for the project.(integrated from the mbedtls library
+
+-Include: Header files for the project.(integrated from the mbedtls library.
+
 -SRC: Source files, including the necessary files from the mbedtls  library.
+
 Some needed files like : 
+
 -Utils: that contains macros like function like read_bit, set_bit.. and so on to treat with the registers of the Microcontroller.
+
 -Common.h : is needed for the header files of the library.
+
 -MemMap: contains the addresses of the registers (specific for the used target).
--StdTypes : conatains the main used data types .
+
+-StdTypes : conatains the main used data types.
+
 Setup Instructions
 1. Clone the Repository
 Clone the project repository to your local machine using Git:
